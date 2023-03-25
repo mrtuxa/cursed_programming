@@ -13,6 +13,5 @@ stdenv.mkDerivation {
     ./bin/main
     mkdir -p $out/bin
     cp bin/main $out/bin
-    rm -rvf $out/
   '';
 }
