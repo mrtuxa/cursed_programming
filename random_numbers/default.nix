@@ -2,7 +2,7 @@ with import <nixpkgs> {};
 
 stdenv.mkDerivation {
   name = "randomnumber";
-  src = ./random_numbers;
+  src = ./.;
 
 
   buildPhase = "c++ -o main main.cpp --verbose";
