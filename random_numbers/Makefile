@@ -4,7 +4,7 @@ compile:
 	g++ main.cpp --verbose -o main
 
 runpower:
-	chmod +x application
+	chmod +x main
 
 run:
 	./main
