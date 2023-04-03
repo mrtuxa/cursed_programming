@@ -1,10 +1,10 @@
 default: compile runpower run
 
 compile:
-	g++ main.cpp --verbose -o application
+	g++ main.cpp --verbose -o main
 
 runpower:
 	chmod +x application
 
 run:
-	./application
+	./main
