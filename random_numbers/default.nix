@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   src = ./.;
 
 
-  buildPhase = "c++ -o main main.cpp --verbose";
+  buildPhase = "make";
 
   installPhase = ''
     mkdir bin/
